@@ -7,6 +7,7 @@ body {
     color: #3C4048;}
 
 
+
 .nav{
     height: 50px;
     width: 570px;
@@ -41,6 +42,7 @@ li{
 
 
     
+  
 .top-container{
     background-image: url(bg_paper.jpg);
     background-size: 100% 100%;
@@ -74,6 +76,19 @@ img{
     margin-right: 15px;
     margin-left: 0px;
     float: left;   }
+
+@media screen and (max-width: 1240px) {
+    .content>img {
+        width: 35%;
+        margin: 0;
+        float: none; }
+    .content>#aga{
+        float: none;
+        margin: auto;    }
+    .content>.zakladka{
+        float: none;
+        margin: auto;    }
+}
 
 .zakladka{
     margin: 0px;
@@ -130,7 +145,13 @@ hr{
         font-size: 1.3rem;
         color: #94B49F;
         margin: 0%;
-        display: inline;}
+        display: inline;
+        transition: all 0.1s;}
+        .projekty>h2:hover{
+            font-size: 1.4rem;}
+        .projekty>h2>a{
+            text-decoration: none;
+            color: #94B49F;        }
     .projekty >a img{
         margin: 0%;
         margin-right: 10px;
@@ -229,30 +250,24 @@ h3{
 
 /*###################### CONTACT ME ######################*/
 
-.email{
-    
-    align-content: left;
-    text-align: left;
-    padding-left: 0px;
-    /*padding-top: 50px;
-    padding-bottom: 50px;*/
-    font-weight: bold;
-    font-family:"Merriweathe", serif;
-    color: #3C4048;}
+.bg-paper {
+    background-image: url(bgnote.png);
+    /*background-color: #fff;*/
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;}
 
 
-    
- #info{
+ .info{
     color: #3C4048;
     font-size: 1rem;
-    width: fit-content;
     position: relative;
-    left: 15%;
-    bottom: 50px;  }
+    top:25%;
+    margin-right: 5%; }
 
- #tabela{
-    width: 80%;
-    margin-left: 10%;}
+
 
 
 /*###################### CV ######################*/
