@@ -407,19 +407,19 @@ h3{
     height: 200px;
     background-color:#d9ddde;}
     .language #p1{
-        word-spacing: 20px;
+        word-spacing: 40px;
         display: inline;
-        padding: 10px 100px 10px 100px  ;
-        background-color: #fff;
+        padding: 10px 155px 10px 155px  ;
+        background-color:#eeeeef;
         font-size: larger;
-        margin-right: 50px;}
+        margin-right: 25px;}
     .language #p2{
         word-spacing: 20px;
         display: inline;
         padding: 10px 100px 10px 100px ;
-        background-color: #fff;
+        background-color:#eeeeef;
         font-size: larger;
-        margin-left: 50px;}
+        margin-left: 25px;}
 
 
 @media screen and (max-width: 1260px) {
@@ -428,7 +428,7 @@ h3{
         margin:auto auto 10px auto;
         text-align: center;
         width:fit-content;
-        padding: 10px 166px 10px 165px  ;
+        padding: 10px 156px 10px 155px  ;
     }
     .language #p2{
         display: block;
