@@ -13,7 +13,8 @@ body {
     width: 570px;
     background-color: #eeeeef;
     margin: 0%;
-    position: fixed;
+    position: fixed ;
+    z-index: 1;
     text-decoration: none;  }
     .nav > ul a{
         text-decoration: none;
@@ -40,8 +41,7 @@ li{
     padding: 1rem 1.5rem;
     float: left;}
 
-
-    
+  
   
 .top-container{
     background-image: url(bg_paper.jpg);
