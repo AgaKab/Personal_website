@@ -298,7 +298,8 @@ h3{
 
 
 .work{
-    height: 700px;}
+    height: 700px;
+    background-color:#d9ddde;}
     .work h4 a {
         text-decoration: none;
         color: #3C4048;}
@@ -348,7 +349,8 @@ h3{
     }
 
 .kursy{
-    height: 1150px;}
+    height: 1150px;
+    background-color:#d9ddde}
     .kursyprojects{
         margin-bottom: 30px;}
         .kursyprojects strong{
@@ -358,7 +360,8 @@ h3{
         text-align: left;
         font-size: 19px;}
     .kursyskills{
-        margin-bottom: 60px;}
+        margin-bottom: 60px;
+        box-sizing: border-box;}
     .kursyskills strong{
         color: #61876E;
         font-size: 19px;}
@@ -371,12 +374,23 @@ h3{
         text-align: left;}
 
 .grid-container{
-    display: grid;
+    /*display: grid;
     justify-content: end;
     grid-template-rows: 50% 50%;
     grid-template-columns: 25% 25% 25% 25%;
     margin-bottom: 130px;
-    justify-items: center;}
+    justify-items: center;*/
+
+    display: grid;
+    justify-content: center;
+    /* grid-template-rows: 50% 50% 50%; */
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-bottom: 70px;
+    justify-items: center;
+    /* margin: auto; */
+    align-content: stretch;
+    height: 300px;
+    align-items: center;}
 
 .grid-item{
     text-align: center;
@@ -390,22 +404,45 @@ h3{
     margin-bottom: 70px;}
 
 .language{
-    height: 200px;}
+    height: 200px;
+    background-color:#d9ddde;}
     .language #p1{
         word-spacing: 20px;
         display: inline;
         padding: 10px 100px 10px 100px  ;
         background-color: #fff;
         font-size: larger;
-        margin-right: 100px;}
+        margin-right: 50px;}
     .language #p2{
         word-spacing: 20px;
         display: inline;
         padding: 10px 100px 10px 100px ;
         background-color: #fff;
         font-size: larger;
-        margin-left: 100px;}
+        margin-left: 50px;}
 
+
+@media screen and (max-width: 1260px) {
+    .language #p1 {
+        display:block;
+        margin:auto auto 10px auto;
+        text-align: center;
+        width:fit-content;
+        padding: 10px 166px 10px 165px  ;
+    }
+    .language #p2{
+        display: block;
+        /* margin-left: 0; */
+        width: fit-content;
+        text-align: center;
+        margin: auto;}
+}
+
+
+
+
+.education{
+    background-color:#d9ddde;}
 .education p{
     margin: 0;
     margin-bottom: 50px;
