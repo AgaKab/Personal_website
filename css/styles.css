@@ -341,7 +341,8 @@ h3{
         font-size: 19px;
         text-align: left;  }    
     .workskills .grid-skills{
-        display: grid;
+        display: inline-grid;
+        width:100%;
         justify-content: center;
         grid-template-columns: 20% 20% 20% 20% 20% ;
         align-items: center;    }
@@ -358,13 +359,13 @@ h3{
     .workskills .grid-skills{
         display: grid;
         justify-content: center;
-        grid-template-columns: 50% 50% ;
+        grid-template-columns: 33% 33% 33% ;
         align-items: center;    }
     .workskills .grid-skills p{
         border: none;    }}
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1111px){
     .work{
-        height: 910px;    }
+        height: 1050px;    }
 }
 
 
