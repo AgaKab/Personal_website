@@ -373,18 +373,15 @@ h3{
     margin-bottom: 15px;
     margin-top: 150px;
     box-sizing: border-box;}
-    .technologies strong{
-        color: #61876E;
-        font-size: 19px;
-        float: left;}
 
 .grid-logos{
     display: grid;
     justify-content: center;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     justify-items: center;
     align-content: stretch;
-    align-items: center;}
+    align-items: center;
+    padding-top: 20px;}
 
 
 .kursy{
