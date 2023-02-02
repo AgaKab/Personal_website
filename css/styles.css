@@ -298,7 +298,7 @@ h3{
 
 
 .work{
-    height: 700px;
+    height: 860px;
     background-color:#d9ddde;}
     .work h4 a {
         text-decoration: none;
@@ -335,21 +335,59 @@ h3{
 .workskills{
     position: relative;
     top:100px   }
-    .workskills p {
+    .workskills #header {
         color: #61876E;
-        margin-bottom: 50px;
-        font-size: 19px;   }    
-    .workskills ul{
-        list-style:disc;}
-    .workskills li{
-        float: left;
-        padding: 0rem 1.7rem 0rem 0rem;}
-    .workskills li::marker{
+        margin-bottom: 45px;
+        font-size: 19px;
+        text-align: left;  }    
+    .workskills .grid-skills{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 20% 20% 20% 20% 20% ;
+        align-items: center;    }
+    .workskills .grid-skills p{
+        border-left: #D0C9C0 solid 1px;
+        padding-top: 10px ;
+        margin: 0 ;}
+    .blank{
+        color: #d9ddde;    }
+
+
+
+@media screen and (max-width: 1010px) {
+    .workskills .grid-skills{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50% 50% ;
+        align-items: center;    }
+    .workskills .grid-skills p{
+        border: none;    }}
+@media screen and (max-width: 1100px){
+    .work{
+        height: 910px;    }
+}
+
+
+.technologies{
+    margin-bottom: 15px;
+    margin-top: 150px;
+    box-sizing: border-box;}
+    .technologies strong{
         color: #61876E;
-    }
+        font-size: 19px;
+        float: left;}
+
+.grid-logos{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    align-content: stretch;
+    align-items: center;}
+
 
 .kursy{
-    height: 1150px;
+    height: 1070px;
     background-color:#d9ddde}
     .kursyprojects{
         margin-bottom: 30px;}
@@ -360,7 +398,7 @@ h3{
         text-align: left;
         font-size: 19px;}
     .kursyskills{
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         box-sizing: border-box;}
     .kursyskills strong{
         color: #61876E;
@@ -373,14 +411,8 @@ h3{
         font-size: 17px;
         text-align: left;}
 
-.grid-container{
-    /*display: grid;
-    justify-content: end;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-bottom: 130px;
-    justify-items: center;*/
 
+.grid-container{
     display: grid;
     justify-content: center;
     /* grid-template-rows: 50% 50% 50%; */
@@ -389,7 +421,7 @@ h3{
     justify-items: center;
     /* margin: auto; */
     align-content: stretch;
-    height: 300px;
+    height: 250px;
     align-items: center;}
 
 .grid-item{
@@ -404,7 +436,7 @@ h3{
     margin-bottom: 70px;}
 
 .language{
-    height: 200px;
+    height: 160px;
     background-color:#d9ddde;}
     .language #p1{
         word-spacing: 40px;
@@ -436,6 +468,10 @@ h3{
         width: fit-content;
         text-align: center;
         margin: auto;}
+
+    .language{
+        height: 220px;
+    }
 }
 
 
