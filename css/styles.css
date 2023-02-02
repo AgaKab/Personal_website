@@ -339,7 +339,7 @@ h3{
         color: #61876E;
         margin-bottom: 45px;
         font-size: 19px;
-        text-align: left;  }    
+        /*text-align: left;*/  }    
     .workskills .grid-skills{
         display: inline-grid;
         width:100%;
